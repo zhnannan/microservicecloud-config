@@ -10,7 +10,7 @@ spring:
     name: mocroservicecloud-config-dev
 
 server:
-  port: 1009
+  port: 1000
 
 
 ---
