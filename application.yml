@@ -18,7 +18,7 @@ server:
 spring:
   profiles: test
   application:
-    name: mocroservicecloud-config-test
+    name: mocroservicecloud-config
 
 server:
   port: 1001
