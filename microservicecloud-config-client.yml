@@ -17,17 +17,33 @@ euraka:
     service-url:
       defaultZone: http://eureka-dev.com:7001/eureka/
 
+#测试环境
 ---
-server: 
-  port: 8202
+server:
+  port: 8202
 
 spring:
-  profiles: test
-  application: 
-    name: microservicecloud-config-client
+  profiles: test
+  application:
+    name: microservicecloud-config-client
 
-eureka: 
-  client: 
-    service-url: 
-      defaultZone: http://eureka-test.com:7001/eureka/
+euraka:
+  client:
+    service-url:
+      defaultZone: http://eureka-test.com:7001/eureka/
+      
+#生产环境
+---
+server:
+  port: 8203
+
+spring:
+  profiles: prod
+  application:
+    name: microservicecloud-config-client
+
+euraka:
+  client:
+    service-url:
+      defaultZone: http://eureka-prod.com:7001/eureka/
  
