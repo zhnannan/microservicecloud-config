@@ -46,4 +46,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka-prod.com:7001/eureka/
- 
