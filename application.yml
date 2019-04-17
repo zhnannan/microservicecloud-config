@@ -6,6 +6,8 @@ spring:
 #开发环境配置
 spring:
   profiles: dev
+  application:
+    name: mocroservicecloud-config-dev
 
 server:
   port: 1000
