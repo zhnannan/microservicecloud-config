@@ -16,7 +16,9 @@ server:
 ---
 #测试环境配置
 spring:
-  profiles: stg
+  profiles: test
+  application:
+    name: mocroservicecloud-config-test
 
 server:
   port: 1001
@@ -25,7 +27,9 @@ server:
 ---
 #生产环境配置
 spring:
-  profiles: prd
+  profiles: prod
+  application:
+    name: mocroservicecloud-config-prod
 
 server:
   port: 1002
