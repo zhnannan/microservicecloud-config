@@ -7,7 +7,7 @@ spring:
 spring:
   profiles: dev
   application:
-    name: mocroservicecloud-config
+    name: mocroservicecloud-config-dev
 
 server:
   port: 1000
