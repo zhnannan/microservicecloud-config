@@ -10,12 +10,12 @@ server:
 spring:
   profiles: dev
   application:
-    name: microservicecloud-config-client-A
+    name: microservicecloud-config-client
 
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-dev-A.com:7001/eureka/
+      defaultZone: http://eureka-dev.com:7001/eureka/
 
 #测试环境
 ---
