@@ -6,9 +6,11 @@ spring:
 #开发环境配置
 spring:
   profiles: dev
+  application:
+    name: mocroservicecloud-config
 
-student:
-  name: znn
+server:
+  port: 1000
 
 
 ---
