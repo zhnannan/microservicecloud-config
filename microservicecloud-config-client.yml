@@ -10,7 +10,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microservicecloud-config-client-dev
+    name: microservicecloud-config-client
 
 eureka:
   client:
